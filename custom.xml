@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="AOSPA/android_art" />
+  <project path="art" name="pa-gr/android_art" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_bootable_recovery" />
+  <project path="bootable/recovery" name="pa-gr/android_bootable_recovery" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_build_soong" />
+  <project path="build/soong" name="pa-gr/android_build_soong" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_build" />
+  <project path="build/make" name="pa-gr/android_build" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_kernel_build" />
+  <project path="device/qcom/kernelscripts" name="pa-gr/android_kernel_build" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="pa-gr/android_device_qcom_sepolicy_vndr" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_device_qcom_common" />
+  <project path="device/qcom/common" name="pa-gr/android_device_qcom_common" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_external_f2fs-tools" />
+  <project path="external/f2fs-tools" name="pa-gr/android_external_f2fs-tools" remote="github" revision="sapphire" />
+  <remove-project name="platform/external/harfbuzz_ng" />
+  <project path="external/harfbuzz_ng" name="pa-gr/android_external_harfbuzz_ng" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_frameworks_av" />
+  <project path="frameworks/av" name="pa-gr/android_frameworks_av" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_frameworks_native" />
+  <project path="frameworks/native" name="pa-gr/android_frameworks_native" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <project path="frameworks/base" name="pa-gr/android_frameworks_base" remote="github" revision="sapphire" />
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="pa-gr/android_frameworks_libs_systemui" remote="github" revision="sapphire" />
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="pa-gr/android_hardware_interfaces" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/manifest" />
+  <project path="manifest" name="pa-gr/manifest" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_packages_apps_ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="pa-gr/android_packages_apps_ThemePicker" remote="github" revision="sapphire" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <project path="packages/apps/EmergencyInfo" name="pa-gr/android_packages_apps_EmergencyInfo" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="pa-gr/android_packages_apps_Settings" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="pa-gr/android_packages_apps_Launcher3" remote="github" revision="sapphire" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
+  <project path="packages/apps/CarrierConfig" name="pa-gr/android_packages_apps_CarrierConfig" remote="github" revision="sapphire" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <project path="packages/modules/Wifi" name="pa-gr/android_packages_modules_Wifi" remote="github" revision="sapphire" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="pa-gr/android_packages_modules_Permission" remote="github" revision="sapphire" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  <project path="packages/modules/StatsD" name="pa-gr/android_packages_modules_StatsD" remote="github" revision="sapphire" />
+  <remove-project name="platform/system/logging" />
+  <project path="system/logging" name="pa-gr/android_system_logging" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_system_core" />
+  <project path="system/core" name="pa-gr/android_system_core" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_system_vold" />
+  <project path="system/vold" name="pa-gr/android_system_vold" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_system_sepolicy" />
+  <project path="system/sepolicy" name="pa-gr/android_system_sepolicy" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_vendor_aospa" />
+  <project path="vendor/aospa" name="pa-gr/android_vendor_aospa" remote="github" revision="sapphire" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="pa-gr/android_vendor_qcom_opensource_commonsys_system_bt" remote="github" revision="sapphire" />
+  <remove-project name="proprietary_vendor_qcom_sdclang" />
+  <project path="vendor/qcom/sdclang" name="pa-gr/proprietary_vendor_qcom_sdclang" remote="github" revision="14" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <project path="vendor/qcom/common" name="pa-gr/proprietary_vendor_qcom_common" remote="github" revision="sapphire" />
+
+</manifest>
